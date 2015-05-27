@@ -1,4 +1,4 @@
-# apistatus
+# apistatus [![Build Status](https://travis-ci.org/paulvollmer/apistatus.svg?branch=master)](https://travis-ci.org/paulvollmer/apistatus) ![License](https://img.shields.io/npm/l/apistatus.svg)
 implementation of https://github.com/Mashape/apistatus in go.
 
 ### Install
