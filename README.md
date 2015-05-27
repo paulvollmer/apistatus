@@ -7,12 +7,14 @@ go get github.com/paulvollmer/apistatus
 
 ### Usage
 
+    ...
     status := Apistatus{}
-    data, err := status.Check("http://github.com")
+    statusCode, err := status.Check("http://github.com")
     if err != nil {
       panic(err)
     }
-    fmt.Println(data)
+    fmt.Println(statusCode)
+    ...
 
 ### TODO's
 [ ] HAR
